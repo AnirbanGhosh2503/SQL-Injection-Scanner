@@ -40,9 +40,6 @@ A powerful **SQL Injection Scanner** built using Python, designed to detect vuln
 ![Scan Results Screenshot](Snapshots/Log3.png)
 ![Scan Results Screenshot](Snapshots/Log4.png)
 
-(Replace `link-to-your-screenshot` with actual image links)
-
----
 
 ## 🚀 Installation & Usage
 ### 🔧 Prerequisites
